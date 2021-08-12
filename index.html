@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portofolio</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="ext.js" lang="javascript"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<!-- Menu creation -->
+		<header>
+			<a href="#" class="logo">Portfolio</a>
+			<div class="toggle" onclick="toggleMenu();"></div>
+			<ul class="menu">
+				<li><a href="#home" onclick="toggleMenu();">Home</a></li>
+				<li><a href="#about" onclick="toggleMenu();">About</a></li>
+				<li><a href="#services" onclick="toggleMenu();">Skillset</a></li>
+				<li><a href="#work" onclick="toggleMenu();">Projects</a></li>
+				<li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+			</ul>
+		</header>
+
+		<section class="banner" id="home">
+			<div class="textBox">
+				<h2>
+					Hello, I'm <br />
+					<span>Aaron Rodrigues</span>
+				</h2>
+				<h3>I am a graduate web/software developer</h3>
+				<a href="#about" class="btn">About Me</a>
+			</div>
+		</section>
+
+		<section class="about" id="about">
+			<div class="heading">
+				<p>Get to know me</p>
+				<h2>About Me</h2>
+			</div>
+			<div class="content">
+				<div class="w50">
+					<img src="./images/profile-pic 1.png" alt="" class="proPic" />
+				</div>
+				<div class="contentBox w50">
+					<h3>Who am i ?</h3>
+					<h2>
+						I'm Aaron Trevor Rodrigues, a graduate software & Web developer
+					</h2>
+					<p class="animate__animated animate__bounce">
+						A hardworking individual that is currently applying for graduate
+						roles at companies that provide pro gressive career paths and are
+						rewarding. Key strength is python, and I am confident in my ability
+						to adapt to demanding environments and produce high quali ty work
+						based on specified requirements.
+					</p>
+					<br />
+					<p>
+						I am a final year student at Queen Mary University and studying BSc
+						Computer Science. Working full-time and part-time while also
+						studying at Queen Mary University has provided me with knowledge on
+						how to deal with demanding situations and on different aspects of
+						Software development and the requirements you must adhere to in a
+						professional environment, I am proficient at HTML, CSS and
+						JavaScript
+					</p>
+					<div class="heading bottom">
+						<a
+							href="./images/aaron_trevor_CVmain.pdf"
+							target="_blank"
+							class="btn round"
+							>Download CV</a
+						>
+						<div class="bt">
+							<b>Name:</b>Aaron Trevor Rodrigues <br />
+							<b>Status:</b> Graduate <br />
+						</div>
+						<div class="bt">
+							<b>Email: </b> aarontrevor001@gmail.com <br />
+							<b>Location: </b> London, UK <br />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- skills sections -->
+
+		<section class="services" id="services">
+			<div class="heading white">
+				<h2>Skillset</h2>
+				<p>Skills currently at hand</p>
+			</div>
+			<div class="content">
+				<div class="servicesBox">
+					<i class="fab fa-python fa-5x"></i>
+					<h3>Python</h3>
+					<p>
+						Proficient in working with Python to create web application and
+						programs
+					</p>
+				</div>
+				<div class="servicesBox">
+					<i class="fab fa-js-square fa-5x"></i>
+					<h3>Javascript</h3>
+					<p>
+						Intermediate Proficiency in javascript to create web application
+						with usage of frameworks and runtimes environments such as (Node.JS,
+						Express.JS and etc.)
+					</p>
+				</div>
+				<div class="servicesBox">
+					<i class="fab fa-react fa-5x"></i>
+					<h3>React Native</h3>
+					<p>
+						Familiar with react native to create Android and IOS mobile
+						applications using Javascript
+					</p>
+				</div>
+				<div class="servicesBox">
+					<i class="fas fa-code fa-5x"></i>
+					<h3>Django</h3>
+					<p>
+						Skilled in the usage of Python with the Django framework to create
+						web applications
+					</p>
+				</div>
+				<div class="servicesBox">
+					<i class="fab fa-unity fa-5x"></i>
+					<h3>Unity 3D</h3>
+					<p>
+						Skilled at using unity 3D to create games via the usage of C#
+						programming language.
+					</p>
+				</div>
+				<div class="servicesBox">
+					<i class="fas fa-blender-phone fa-5x"></i>
+					<h3>Blender 3D</h3>
+					<p>
+						Proficient at using Blender 3D to create animation for models to be
+						used in Unity 3D.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- creating project sections -->
+		<section class="work" id="work">
+			<div class="heading">
+				<h2>Projects</h2>
+				<p>Project Previews of <b> Personal Projects</b></p>
+			</div>
+			<div class="content">
+				<div class="workBox">
+					<a
+						href="https://github.com/Sifclairhelix/Unity_Gamedev_coursework"
+						target="_blank"
+					>
+						<img src="images/6.jpg" alt="" />
+						<p>Unity Game</p>
+					</a>
+				</div>
+				<div class="workBox">
+					<a
+						href="https://github.com/Sifclairhelix/projectfront1"
+						target="_blank"
+					>
+						<img src="images/reactphone3.1.png" alt="" />
+						<p>React Native Mobile Application</p>
+					</a>
+				</div>
+				<div class="workBox">
+					<a
+						href="https://github.com/Sifclairhelix/WebProgramming_groupcoursework"
+						target="_blank"
+					>
+						<img src="images/12_dec_19_01.PNG" alt="" />
+						<p>Django Newsletter Website</p>
+					</a>
+				</div>
+				<!-- <div class="workBox">
+					<a href="" target="_blank">
+						<img src="images/6.jpg" alt="" />
+						<p>Not Available yet</p>
+					</a>
+				</div>
+				<div class="workBox">
+					<a href="" target="_blank">
+						<img src="images/6.jpg" alt="" />
+						<p>Not Available yet</p>
+					</a>
+				</div>
+				<div class="workBox">
+					<a href="" target="_blank">
+						<img src="images/6.jpg" alt="" />
+						<p>Not Available yet</p>
+					</a>
+				</div> -->
+				<div class="heading">
+					<a
+						href="https://github.com/Sifclairhelix"
+						target="_blank"
+						class="btn"
+					>
+						VIEW ALL PROJECTS
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- contact details -->
+		<section class="contact" id="contact">
+			<div class="heading white">
+				<p>Contact Below</p>
+				<h2>Get in Touch</h2>
+			</div>
+			<div class="content">
+				<div class="contactInfo">
+					<h3>Contact Info</h3>
+					<p>Feel free to contact for any additional information</p>
+					<div class="contactInfoBox">
+						<div class="Box">
+							<div class="icon">
+								<i class="fas fa-map-marked-alt"></i>
+							</div>
+							<div class="text">
+								<h3>Address</h3>
+								<address>London, UK</address>
+							</div>
+						</div>
+						<div class="Box">
+							<div class="icon">
+								<i class="fas fa-phone"></i>
+							</div>
+							<div class="text">
+								<h3>Phone No</h3>
+								<p>0744877318</p>
+							</div>
+						</div>
+						<div class="Box">
+							<div class="icon"><i class="fas fa-envelope-open-text"></i></div>
+							<div class="text">
+								<h3>Email Address</h3>
+								<p>aarontrevor001@gmail.com</p>
+							</div>
+						</div>
+						<br />
+						<h3>Socials</h3>
+						<div class="BoxSocial">
+							<div class="icon" target="_blank">
+								<a href="https://www.linkedin.com/in/aaron-trevor-r-99a1a5196/"
+									><i class="fab fa-linkedin"></i>
+								</a>
+							</div>
+							<div class="icon" target="_blank">
+								<a href="https://github.com/Sifclairhelix">
+									<i class="fab fa-github"></i
+								></a>
+							</div>
+							<div class="icon" target="_blank">
+								<a href=""> </a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- message section for contact -->
+				<div class="formBox">
+					<form>
+						<h3>Contact Me</h3>
+						<input type="text" placeholder="Name" />
+						<input type="email" placeholder="Email" />
+						<textarea name="" id="" rows="5" placeholder="Message"></textarea>
+						<input type="submit" value="Send Message" />
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<footer class="copyright">
+			&copy;2020, Aaron Rodrigues, All rights reserved
+		</footer>
+	</body>
+</html>
